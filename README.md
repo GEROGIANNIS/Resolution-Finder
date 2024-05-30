@@ -1,10 +1,10 @@
 ## Resolution Finder
 
-Resolution Finder is a simple C++ program that identifies resolutions with a 4:3 aspect ratio based on a given total number of pixels. This project demonstrates basic programming concepts such as loops, conditionals, and data structures in C++.
+Resolution Finder is a simple C++ program that identifies resolutions with specified aspect ratios (4:3 and 16:9) based on a given total number of pixels. This project demonstrates basic programming concepts such as loops, conditionals, and data structures in C++.
 
 ### Features
 
-- Finds all possible resolutions with a 4:3 aspect ratio given a specified number of total pixels.
+- Finds all possible resolutions with 4:3 and 16:9 aspect ratios given a specified number of total pixels.
 - Outputs the resolutions in a readable format.
 - Provides an example of usage within the main function.
 
@@ -42,13 +42,16 @@ To compile and run this program, you need:
 
 ### Example
 
-The example in the `main.cpp` file checks for resolutions with a 4:3 aspect ratio given a total of 38,400 pixels. The output will display all possible resolutions that meet this criterion.
+The example in the `main.cpp` file checks for resolutions with 4:3 and 16:9 aspect ratios given a total of 30,000 pixels. The output will display all possible resolutions that meet these criteria.
 
 #### Sample Output
 
 ```
-Resolutions with 4:3 aspect ratio and 30000 pixels:
-200x150
+Finding resolutions with 4:3 aspect ratio:
+No resolutions found with 4:3 aspect ratio and 30000 pixels.
+
+Finding resolutions with 16:9 aspect ratio:
+No resolutions found with 16:9 aspect ratio and 30000 pixels.
 ```
 
 ### Contributing
